@@ -1,2 +1,5 @@
 # PR_KC105_SDK
 保存XAPP1292的原始SDK工程：
+
+VIVADO/SDK 版本 v2016.3
+BSP Lwip 版本：141
