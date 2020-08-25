@@ -1,0 +1,143 @@
+18:42:20 **** Build of project pr_bsp_v2016_3 ****
+make -k all 
+"Running Make include in cpu/libsrc/bram_v4_1/src"
+make -C cpu/libsrc/bram_v4_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in cpu/libsrc/cpu_v2_5/src"
+make -C cpu/libsrc/cpu_v2_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in cpu/libsrc/emaclite_v4_3/src"
+make -C cpu/libsrc/emaclite_v4_3/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in cpu/libsrc/hwicap_v10_1/src"
+make -C cpu/libsrc/hwicap_v10_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in cpu/libsrc/intc_v3_5/src"
+make -C cpu/libsrc/intc_v3_5/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in cpu/libsrc/lwip141_v1_6/src"
+make -C cpu/libsrc/lwip141_v1_6/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in cpu/libsrc/standalone_v6_0/src"
+make -C cpu/libsrc/standalone_v6_0/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in cpu/libsrc/tmrctr_v4_1/src"
+make -C cpu/libsrc/tmrctr_v4_1/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in cpu/libsrc/uartlite_v3_2/src"
+make -C cpu/libsrc/uartlite_v3_2/src -s include  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in cpu/libsrc/bram_v4_1/src"
+make -C cpu/libsrc/bram_v4_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling bram"
+mb-ar: creating ../../../lib/libxil.a
+"Running Make libs in cpu/libsrc/cpu_v2_5/src"
+make -C cpu/libsrc/cpu_v2_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu"
+"Running Make libs in cpu/libsrc/emaclite_v4_3/src"
+make -C cpu/libsrc/emaclite_v4_3/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emaclite"
+"Running Make libs in cpu/libsrc/hwicap_v10_1/src"
+make -C cpu/libsrc/hwicap_v10_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling hwicap"
+xhwicap.c: In function 'XHwIcap_DeviceWrite':
+xhwicap.c:394:34: warning: comparison between pointer and integer
+  if (InstancePtr->RemainingWords != NULL){
+                                  ^
+"Running Make libs in cpu/libsrc/intc_v3_5/src"
+make -C cpu/libsrc/intc_v3_5/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling intc"
+"Running Make libs in cpu/libsrc/lwip141_v1_6/src"
+make -C cpu/libsrc/lwip141_v1_6/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling lwip src and adapter files"
+"Running Make libs in cpu/libsrc/standalone_v6_0/src"
+make -C cpu/libsrc/standalone_v6_0/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone";
+"Running Make libs in cpu/libsrc/tmrctr_v4_1/src"
+make -C cpu/libsrc/tmrctr_v4_1/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling tmrctr"
+"Running Make libs in cpu/libsrc/uartlite_v3_2/src"
+make -C cpu/libsrc/uartlite_v3_2/src -s libs  "SHELL=CMD" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS= -O2 -c -mcpu=v10.0 -mlittle-endian -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartlite"
+'Finished building libraries'
+
+**** Build of configuration Debug for project pr_app ****
+
+Nothing to build for project pr_app
+18:44:21 **** Auto Build of configuration Debug for project pr_app ****
+make all 
+'Building file: ../src/pr_tftp_lib/pr_tftp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pr_tftp_lib/pr_tftp.o" -I../../pr_bsp_v2016_3/cpu/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/pr_tftp_lib/pr_tftp.d" -MT"src/pr_tftp_lib/pr_tftp.o" -o "src/pr_tftp_lib/pr_tftp.o" "../src/pr_tftp_lib/pr_tftp.c"
+'Finished building: ../src/pr_tftp_lib/pr_tftp.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../pr_bsp_v2016_3/cpu/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c:87:67: fatal error: pr_tftp.h: No such file or directory
+compilation terminated.
+make: *** [src/main.o] ´íÎó 1
+18:45:28 **** Clean-only build of configuration Debug for project pr_app ****
+make clean 
+rm -rf  ./src/pr_tftp_lib/pr_tftp.o  ./src/main.o ./src/platform.o ./src/platform_mb.o  ./src/pr_tftp_lib/pr_tftp.d  ./src/main.d ./src/platform.d ./src/platform_mb.d  pr_app.elf.size  pr_app.elf
+' '
+18:45:28 **** Auto Build of configuration Debug for project pr_app ****
+make all 
+'Building file: ../src/pr_tftp_lib/pr_tftp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -I../../pr_bsp_v2016_3/cpu/include -I"C:\Users\HQ_home\Desktop\ICAP\xapp1292\xapp1292_v2016_3\example_3\sw\pr_app\src\pr_tftp_lib" -I"C:\Users\HQ_home\Desktop\ICAP\xapp1292\xapp1292_v2016_3\example_3\sw\pr_app\src" -c -fmessage-length=0 -MT"src/pr_tftp_lib/pr_tftp.o" -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/pr_tftp_lib/pr_tftp.d" -MT"src/pr_tftp_lib/pr_tftp.o" -o "src/pr_tftp_lib/pr_tftp.o" "../src/pr_tftp_lib/pr_tftp.c"
+'Finished building: ../src/pr_tftp_lib/pr_tftp.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -I../../pr_bsp_v2016_3/cpu/include -I"C:\Users\HQ_home\Desktop\ICAP\xapp1292\xapp1292_v2016_3\example_3\sw\pr_app\src\pr_tftp_lib" -I"C:\Users\HQ_home\Desktop\ICAP\xapp1292\xapp1292_v2016_3\example_3\sw\pr_app\src" -c -fmessage-length=0 -MT"src/main.o" -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -I../../pr_bsp_v2016_3/cpu/include -I"C:\Users\HQ_home\Desktop\ICAP\xapp1292\xapp1292_v2016_3\example_3\sw\pr_app\src\pr_tftp_lib" -I"C:\Users\HQ_home\Desktop\ICAP\xapp1292\xapp1292_v2016_3\example_3\sw\pr_app\src" -c -fmessage-length=0 -MT"src/platform.o" -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/platform_mb.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -I../../pr_bsp_v2016_3/cpu/include -I"C:\Users\HQ_home\Desktop\ICAP\xapp1292\xapp1292_v2016_3\example_3\sw\pr_app\src\pr_tftp_lib" -I"C:\Users\HQ_home\Desktop\ICAP\xapp1292\xapp1292_v2016_3\example_3\sw\pr_app\src" -c -fmessage-length=0 -MT"src/platform_mb.o" -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/platform_mb.d" -MT"src/platform_mb.o" -o "src/platform_mb.o" "../src/platform_mb.c"
+'Finished building: ../src/platform_mb.c'
+' '
+'Building target: pr_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -L../../pr_bsp_v2016_3/cpu/lib -Wl,-T -Wl,../src/lscript.ld -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -o "pr_app.elf"  ./src/pr_tftp_lib/pr_tftp.o  ./src/main.o ./src/platform.o ./src/platform_mb.o   -l-Wl,--start-group,-lxil,-lgcc,-lc,--end-group -l-Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+d:/vivado_2016_3/sdk/2016.3/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/5.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: cannot find -l-Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+d:/vivado_2016_3/sdk/2016.3/gnu/microblaze/nt/bin/../lib/gcc/microblaze-xilinx-elf/5.2.0/../../../../microblaze-xilinx-elf/bin/ld.exe: cannot find -l-Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+collect2.exe: error: ld returned 1 exit status
+make: *** [pr_app.elf] ´íÎó 1
+18:45:32 **** Clean-only build of configuration Debug for project pr_app ****
+make clean 
+rm -rf  ./src/pr_tftp_lib/pr_tftp.o  ./src/main.o ./src/platform.o ./src/platform_mb.o  ./src/pr_tftp_lib/pr_tftp.d  ./src/main.d ./src/platform.d ./src/platform_mb.d  pr_app.elf.size  pr_app.elf
+' '
+18:45:32 **** Auto Build of configuration Debug for project pr_app ****
+make all 
+'Building file: ../src/pr_tftp_lib/pr_tftp.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -I../../pr_bsp_v2016_3/cpu/include -I"C:\Users\HQ_home\Desktop\ICAP\xapp1292\xapp1292_v2016_3\example_3\sw\pr_app\src\pr_tftp_lib" -I"C:\Users\HQ_home\Desktop\ICAP\xapp1292\xapp1292_v2016_3\example_3\sw\pr_app\src" -c -fmessage-length=0 -MT"src/pr_tftp_lib/pr_tftp.o" -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/pr_tftp_lib/pr_tftp.d" -MT"src/pr_tftp_lib/pr_tftp.o" -o "src/pr_tftp_lib/pr_tftp.o" "../src/pr_tftp_lib/pr_tftp.c"
+'Finished building: ../src/pr_tftp_lib/pr_tftp.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -I../../pr_bsp_v2016_3/cpu/include -I"C:\Users\HQ_home\Desktop\ICAP\xapp1292\xapp1292_v2016_3\example_3\sw\pr_app\src\pr_tftp_lib" -I"C:\Users\HQ_home\Desktop\ICAP\xapp1292\xapp1292_v2016_3\example_3\sw\pr_app\src" -c -fmessage-length=0 -MT"src/main.o" -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -I../../pr_bsp_v2016_3/cpu/include -I"C:\Users\HQ_home\Desktop\ICAP\xapp1292\xapp1292_v2016_3\example_3\sw\pr_app\src\pr_tftp_lib" -I"C:\Users\HQ_home\Desktop\ICAP\xapp1292\xapp1292_v2016_3\example_3\sw\pr_app\src" -c -fmessage-length=0 -MT"src/platform.o" -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building file: ../src/platform_mb.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -I../../pr_bsp_v2016_3/cpu/include -I"C:\Users\HQ_home\Desktop\ICAP\xapp1292\xapp1292_v2016_3\example_3\sw\pr_app\src\pr_tftp_lib" -I"C:\Users\HQ_home\Desktop\ICAP\xapp1292\xapp1292_v2016_3\example_3\sw\pr_app\src" -c -fmessage-length=0 -MT"src/platform_mb.o" -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -MMD -MP -MF"src/platform_mb.d" -MT"src/platform_mb.o" -o "src/platform_mb.o" "../src/platform_mb.c"
+'Finished building: ../src/platform_mb.c'
+' '
+'Building target: pr_app.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../pr_bsp_v2016_3/cpu/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -o "pr_app.elf"  ./src/pr_tftp_lib/pr_tftp.o  ./src/main.o ./src/platform.o ./src/platform_mb.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxil,-llwip4,-lgcc,-lc,--end-group
+'Finished building target: pr_app.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size pr_app.elf  |tee "pr_app.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+ 270186	   1736	1074452070	1074723992	400efc98	pr_app.elf
+'Finished building: pr_app.elf.size'
+' '
+18:45:39 **** Incremental Build of configuration Debug for project pr_app ****
+make all 
+make: Nothing to be done for `all'.
